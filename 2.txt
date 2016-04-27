@@ -1,0 +1,306 @@
+OpenPLi Enigma2 crash log
+
+crashdate=Срд Апр 27 08:02:19 2016
+compiledate=Mar 15 2016
+skin=following/skin.xml
+sourcedate=2016-03-14
+branch=(no branch)
+rev=438b066
+component=enigma2, signal
+
+stbmodel=duo2
+stbmodel=dm8000
+kernelcmdline=libata.force=1:1.5Gbps bmem=192M@64M bmem=220M@512M memc1=788M ubi.mtd=0 root=ubi0:rootfs rootfstype=ubifs rw rootflags=sync
+nimsockets=NIM Socket 0:
+imageissue=openpli 4 %h
+
+
+iting to Vu+ LCD 
+<   258.306> [LCD4linux] writing to Vu+ LCD 
+<   258.946> [LCD4linux] writing to Vu+ LCD 
+<   259.646> [LCD4linux] writing to Vu+ LCD 
+<   260.137> action ->  SetupActions cancel
+<   260.180> [SunnyTv]: config callback: False
+<   260.317> [LCD4linux] writing to Vu+ LCD 
+<   260.981> [LCD4linux] writing to Vu+ LCD 
+<   261.486> [LCD4linux] writing to Vu+ LCD 
+<   262.218> [LCD4linux] writing to Vu+ LCD 
+<   262.381> login start
+<   262.641> httpPost success
+<   262.642> login success.
+<   262.838> [LCD4linux] writing to Vu+ LCD 
+<   263.517> [LCD4linux] writing to Vu+ LCD 
+<   264.057> [LCD4linux] writing to Vu+ LCD 
+<   264.577> action ->  SetupActions save
+<   264.577> unknown action SetupActions/save! typo in keymap?
+<   264.787> [LCD4linux] writing to Vu+ LCD 
+<   265.404> [LCD4linux] writing to Vu+ LCD 
+<   265.458> action ->  SetupActions cancel
+<   266.085> [LCD4linux] writing to Vu+ LCD 
+<   266.773> [LCD4linux] writing to Vu+ LCD 
+<   267.317> [FanControl2] Vlt:5 Pwm:65531 Fan:4pin Pid:0.00%   - BoxOn
+<   267.330> [FanControl2] currentRPM:1280 targetRPM:50 Temp:32.0
+<   267.435> [LCD4linux] writing to Vu+ LCD 
+<   267.647> login start
+<   267.915> httpPost success
+<   267.920> login success.
+<   268.064> [LCD4linux] writing to Vu+ LCD 
+<   268.460> action ->  ChannelSelectBaseActions showAllServices
+<   268.461> unknown action ChannelSelectBaseActions/showAllServices! typo in keymap?
+<   268.461> action ->  ColorActions red
+<   268.461> unknown action ColorActions/red! typo in keymap?
+<   268.694> [LCD4linux] writing to Vu+ LCD 
+<   269.286> [LCD4linux] writing to Vu+ LCD 
+<   269.913> [LCD4linux] writing to Vu+ LCD 
+<   270.537> [LCD4linux] writing to Vu+ LCD 
+<   270.867> action ->  ChannelSelectEPGActions info
+<   270.868> unknown action ChannelSelectEPGActions/info! typo in keymap?
+<   270.868> action ->  ChannelSelectEPGActions showEPGList
+<   270.944> halign must be either left, center, right or block!
+<   270.990> hide s%s
+<   271.281> [LCD4linux] writing to Vu+ LCD 
+<   271.844> [LCD4linux] writing to Vu+ LCD 
+<   272.417> [LCD4linux] writing to Vu+ LCD 
+<   272.926> login start
+<   272.994> [LCD4linux] writing to Vu+ LCD 
+<   273.173> httpPost success
+<   273.174> login success.
+<   273.510> [LCD4linux] writing to Vu+ LCD 
+<   273.974> action ->  EPGSelectActions menu
+<   273.974> unknown action EPGSelectActions/menu! typo in keymap?
+<   274.093> [LCD4linux] writing to Vu+ LCD 
+<   274.599> [LCD4linux] writing to Vu+ LCD 
+<   274.985> action ->  OkCancelActions cancel
+<   275.314> [LCD4linux] writing to Vu+ LCD 
+<   275.927> [LCD4linux] writing to Vu+ LCD 
+<   276.093> action ->  MenuActions menu
+<   276.123> [SKIN] Parsing embedded skin <embedded-in-'SunnyConfig'>
+<   276.620> [LCD4linux] writing to Vu+ LCD 
+<   277.249> [LCD4linux] writing to Vu+ LCD 
+<   277.310> [FanControl2] Vlt:5 Pwm:65531 Fan:4pin Pid:0.00%   - BoxOn
+<   277.322> [FanControl2] currentRPM:1280 targetRPM:50 Temp:32.0
+<   277.947> [LCD4linux] writing to Vu+ LCD 
+<   278.179> login start
+<   278.440> httpPost success
+<   278.441> login success.
+<   278.576> [LCD4linux] writing to Vu+ LCD 
+<   279.232> [LCD4linux] writing to Vu+ LCD 
+<   279.849> [LCD4linux] writing to Vu+ LCD 
+<   280.073> action ->  SetupActions cancel
+<   280.137> [SunnyTv]: config callback: False
+<   280.516> [LCD4linux] writing to Vu+ LCD 
+<   281.125> [LCD4linux] writing to Vu+ LCD 
+<   281.789> [LCD4linux] writing to Vu+ LCD 
+<   282.449> [LCD4linux] writing to Vu+ LCD 
+<   283.013> [LCD4linux] writing to Vu+ LCD 
+<   283.144> [LCD4linux] Data-Build 
+<   283.232> [LCD4linux] creating LCD-Picture 
+<   283.623> login start
+<   283.692> [LCD4linux] Push: 0.460 (0/0/0) Wait: 0.000 
+<   283.695> [LCD4linux] RunTime: 0.463 (Picture: 0.463 / Write: 0.000) 
+<   283.742> [LCD4linux] writing to Vu+ LCD 
+<   283.800> action ->  InfobarChannelSelection keyDown
+<   283.900> httpPost success
+<   283.900> login success.
+<   283.911> warning, skin is missing element epgNextName in <class 'Plugins.Extensions.iviewHD.plugin.SunnyChannelSelection'>
+<   283.914> warning, skin is missing element epgNextTime in <class 'Plugins.Extensions.iviewHD.plugin.SunnyChannelSelection'>
+<   283.975> warning, skin is missing element channelName in <class 'Plugins.Extensions.iviewHD.plugin.SunnyChannelSelection'>
+<   283.976> warning, skin is missing element epgNextDiscription in <class 'Plugins.Extensions.iviewHD.plugin.SunnyChannelSelection'>
+<   284.469> [LCD4linux] writing to Vu+ LCD 
+<   284.895> [SunnyTV] sorting all 1
+<   285.553> [LCD4linux] writing to Vu+ LCD 
+<   286.262> [SunnyTV] 4 all
+<   286.482> action ->  DirectionActions down
+<   286.483> unknown action DirectionActions/down! typo in keymap?
+<   286.483> [SunnyTV] 5 all
+<   286.487> action ->  DirectionActions downUp
+<   286.487> unknown action DirectionActions/downUp! typo in keymap?
+<   286.488> action ->  DirectionActions down
+<   286.489> unknown action DirectionActions/down! typo in keymap?
+<   286.489> [SunnyTV] 6 all
+<   286.493> action ->  DirectionActions downUp
+<   286.493> unknown action DirectionActions/downUp! typo in keymap?
+<   286.494> action ->  DirectionActions down
+<   286.495> unknown action DirectionActions/down! typo in keymap?
+<   286.495> [SunnyTV] 7 all
+<   286.499> action ->  DirectionActions downUp
+<   286.499> unknown action DirectionActions/downUp! typo in keymap?
+<   286.560> [LCD4linux] writing to Vu+ LCD 
+<   286.663> action ->  ChannelSelectBaseActions keyRight
+<   286.663> unknown action ChannelSelectBaseActions/keyRight! typo in keymap?
+<   286.664> action ->  DirectionActions right
+<   286.664> unknown action DirectionActions/right! typo in keymap?
+<   286.665> [SunnyTV] 25 all
+<   286.850> action ->  DirectionActions rightUp
+<   286.850> unknown action DirectionActions/rightUp! typo in keymap?
+<   287.037> [LCD4linux] writing to Vu+ LCD 
+<   287.319> [FanControl2] Control Error:
+Traceback (most recent call last):
+  File "/usr/lib/enigma2/python/Plugins/Extensions/FanControl2/plugin.py", line 1054, in queryRun
+    AktTemp = self.CurrTemp()
+  File "/usr/lib/enigma2/python/Plugins/Extensions/FanControl2/plugin.py", line 989, in CurrTemp
+    tt = sensors.getSensorValue(count)
+  File "/usr/lib/enigma2/python/Plugins/Extensions/FanControl2/Sensors.py", line 45, in getSensorValue
+    value = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+<   287.319> 
+<   287.720> [LCD4linux] writing to Vu+ LCD 
+<   288.275> [LCD4linux] writing to Vu+ LCD 
+<   288.892> [LCD4linux] writing to Vu+ LCD 
+<   288.911> login start
+<   289.000> action ->  DirectionActions up
+<   289.000> unknown action DirectionActions/up! typo in keymap?
+<   289.001> [SunnyTV] 24 all
+<   289.159> httpPost success
+<   289.160> login success.
+<   289.230> action ->  DirectionActions upUp
+<   289.230> unknown action DirectionActions/upUp! typo in keymap?
+<   289.374> [LCD4linux] writing to Vu+ LCD 
+<   289.439> action ->  DirectionActions up
+<   289.439> unknown action DirectionActions/up! typo in keymap?
+<   289.440> [SunnyTV] 23 all
+<   289.669> action ->  DirectionActions upUp
+<   289.669> unknown action DirectionActions/upUp! typo in keymap?
+<   290.071> [LCD4linux] writing to Vu+ LCD 
+<   290.418> action ->  OkCancelActions ok
+<   290.419> [SunnyTV] ChannelSelection close
+<   290.660> [LCD4linux] writing to Vu+ LCD 
+<   291.254> [LCD4linux] writing to Vu+ LCD 
+<   291.711> [eServiceMP3] stop /tmp/stream2.avi
+<   291.711> [eServiceMP3] stop state:PLAYING pending:VOID_PENDING ret:SUCCESS
+<   291.873> [LCD4linux] writing to Vu+ LCD 
+<   291.925> [eServiceMP3] destruct!
+<   292.003> StartSpinner
+<   292.036> [Stream::keyOK]
+<   292.038> SteamURL: 
+<   292.040> urlget
+<   292.040> urlopen
+<   292.092> send: 'GET /C3F658C8D149749358D494B7A5396559F.m3u8?ois=109.236.94.176&port=5000&cid=C3F658C8D149749358D494B7A5396559F&user=6813e0ffd9f65462&tid=6813e0ffd9f65462&sid=C3F658C8D149749358D494B7A5396559F&type=stb&ois_token=Tm7wM09u8DNQbvAz&playseek=0 HTTP/1.1\r\nHost: 127.0.0.1:11111\r\nAccept-Encoding: gzip, deflate, compress\r\nAccept: */*\r\nUser-Agent: python-requests/0.14.1 CPython/2.7.3 Linux/3.13.5\r\n\r\n'
+<   292.174> reply: 'HTTP/1.1 200 OK\r\n'
+<   292.176> header: Connection: close
+<   292.176> header: Content-Type: application/x-mpegURL
+<   292.176> header: Accept-Ranges: bytes
+<   292.176> header: Server: poxy_p2p_hls
+<   292.177> header: Content-Length: 282
+<   292.195> 08:02:11 connectionpool.py[line:498] DEBUG 1111
+<   292.247> urlget
+<   292.247> urlopen
+<   292.352> send: 'GET /C3F658C8D149749358D494B7A5396559F.m3u8?token=MBFFNzERRTcyEUU3_6813e0ffd9f65462&gid=C3F658C8D149749358D494B7A5396559F&playseek=0&cds_ip=178.17.165.194&cds_port=5002&gid=C3F658C8D149749358D494B7A5396559F HTTP/1.1\r\nHost: 127.0.0.1:11111\r\nAccept-Encoding: gzip, deflate, compress\r\nAccept: */*\r\nUser-Agent: python-requests/0.14.1 CPython/2.7.3 Linux/3.13.5\r\n\r\n'
+<   292.482> [LCD4linux] writing to Vu+ LCD 
+<   292.560> reply: 'HTTP/1.1 200 OK\r\n'
+<   292.562> header: Connection: close
+<   292.562> header: Content-Type: application/x-mpegURL
+<   292.562> header: Accept-Ranges: bytes
+<   292.562> header: Server: proxy_p2p_hls
+<   292.563> header: Content-Length: 1803
+<   292.565> 08:02:11 connectionpool.py[line:498] DEBUG 1111
+<   292.630> urlget
+<   292.631> urlopen
+<   292.737> send: 'GET /C3F658C8D149749358D494B7A5396559F-frag2858786.ts?token=MBFFNzERRTcyEUU3_6813e0ffd9f65462&gid=C3F658C8D149749358D494B7A5396559F&range=5022245773256-5022246712880 HTTP/1.1\r\nHost: 127.0.0.1:11111\r\nAccept-Encoding: gzip, deflate, compress\r\nAccept: */*\r\nUser-Agent: python-requests/0.14.1 CPython/2.7.3 Linux/3.13.5\r\n\r\n'
+<   292.744> reply: 'HTTP/1.1 200 OK\r\n'
+<   292.745> header: Content-Type:application/x-media
+<   292.745> header: Cache_control: no-cache,no-store,max-age=0,must-revalidate
+<   292.745> header: Connection: close
+<   292.746> header: Accept-Ranges: bytes
+<   292.746> header: Content-Length: 939624
+<   292.750> 08:02:12 connectionpool.py[line:498] DEBUG 1111
+<   293.144> [LCD4linux] writing to Vu+ LCD 
+<   293.623> [gRC] main thread is non-idle! display spinner!
+<   293.801> [LCD4linux] writing to Vu+ LCD 
+<   294.324> login start
+<   294.537> [LCD4linux] writing to Vu+ LCD 
+<   295.189> playing 4097:0:0:0:0:0:0:0:0:0:/tmp/stream2.avi:iviewHD
+<   295.191> [eServiceMP3] construct!
+<   295.191> [eServiceMP3] playbin uri=file:///tmp/stream2.avi
+<   295.194> [eServiceMP3] starting pipeline
+<   295.271> [LCD4linux] writing to Vu+ LCD 
+<   295.735> httpPost success
+<   295.736> login success.
+<   296.077> [LCD4linux] writing to Vu+ LCD 
+<   296.815> [LCD4linux] writing to Vu+ LCD 
+<   297.141> send: 'POST /collect HTTP/1.1\r\nHost: www.google-analytics.com\r\nContent-Length: 130\r\nContent-Type: application/x-www-form-urlencoded\r\nAccept-Encoding: gzip, deflate, compress\r\nAccept: */*\r\nUser-Agent: python-requests/0.14.1 CPython/2.7.3 Linux/3.13.5\r\n\r\nel=BT+Sport+2+HD+%28UK%29&uid=6813e0ffd9f65462&cid=6813e0ffd9f65462&ea=zapping&aip=1&ec=channel&t=event&v=1&tid=UA-71857648-4&ev=1'
+<   297.465> reply: 'HTTP/1.1 200 OK\r\n'
+<   297.469> header: Access-Control-Allow-Origin: *
+<   297.469> header: Date: Wed, 27 Apr 2016 05:02:17 GMT
+<   297.470> header: Pragma: no-cache
+<   297.470> header: Expires: Fri, 01 Jan 1990 00:00:00 GMT
+<   297.470> header: Cache-Control: no-cache, no-store, must-revalidate
+<   297.470> header: Last-Modified: Sun, 17 May 1998 03:00:00 GMT
+<   297.470> header: X-Content-Type-Options: nosniff
+<   297.471> header: Content-Type: image/gif
+<   297.471> header: Server: Golfe2
+<   297.471> header: Content-Length: 35
+<   297.474> 08:02:16 connectionpool.py[line:498] DEBUG 1111
+<   297.474> reason: no subscribe.
+<   297.475> Error code: 406
+<   297.476> authen: code: 406
+<   297.506> [eServiceMP3] state transition NULL -> READY
+<   297.572> ------------------------------------------------------------------ __evStart
+<   297.811> [LCD4linux] writing to Vu+ LCD 
+<   298.164> [FanControl2] Vlt:5 Pwm:65531 Fan:4pin Pid:0.00%   - BoxOn
+<   298.188> [FanControl2] currentRPM:1280 targetRPM:50 Temp:32.0
+<   298.231> [eDVBResourceManager] allocate channel.. ffffffff:ffffffff
+<   298.231> [eDVBResourceManager] channel not found!
+<   298.231> [eDVBResourceManager] allocate demux cap=00
+<   298.231> [eDVBResourceManager] allocating demux adapter=0, demux=8, source=-1 fesource=-1
+<   298.231> [eDVBDemux] open demux /dev/dvb/adapter0/demux8
+<   298.231> [eDVBPESReader] Created. Opening demux
+<   298.231> [eDVBDemux] open demux /dev/dvb/adapter0/demux8
+<   298.235> [eDVBPESReader] DMX_SET_PES_FILTER pid=ffffffff
+<   298.257> [eDVBPESReader] DMX_SET_PES_FILTER pid=ffffffff:  Invalid argument
+<   298.257> [eDVBResourceManager] allocate channel.. ffffffff:ffffffff
+<   298.257> [eDVBResourceManager] channel not found!
+<   298.258> [eDVBResourceManager] allocate demux cap=00
+<   298.258> [eDVBResourceManager] allocating demux adapter=0, demux=8, source=-1 fesource=-1
+<   298.258> [eDVBDemux] open demux /dev/dvb/adapter0/demux8
+<   298.258> [eDVBPESReader] Created. Opening demux
+<   298.258> [eDVBDemux] open demux /dev/dvb/adapter0/demux8
+<   298.258> [eDVBPESReader] DMX_SET_PES_FILTER pid=ffffffff
+<   298.265> [eDVBPESReader] DMX_SET_PES_FILTER pid=ffffffff:  Invalid argument
+<   298.266> [eDVBResourceManager] allocate channel.. ffffffff:ffffffff
+<   298.266> [eDVBResourceManager] channel not found!
+<   298.266> [eDVBResourceManager] allocate demux cap=00
+<   298.266> [eDVBResourceManager] allocating demux adapter=0, demux=8, source=-1 fesource=-1
+<   298.266> [eDVBDemux] open demux /dev/dvb/adapter0/demux8
+<   298.266> [eDVBPESReader] Created. Opening demux
+<   298.266> [eDVBDemux] open demux /dev/dvb/adapter0/demux8
+<   298.268> [eDVBPESReader] DMX_SET_PES_FILTER pid=ffffffff
+<   298.275> [eDVBPESReader] DMX_SET_PES_FILTER pid=ffffffff:  Invalid argument
+<   298.276> [eDVBResourceManager] allocate channel.. ffffffff:ffffffff
+<   298.276> [eDVBResourceManager] channel not found!
+<   298.276> [eDVBResourceManager] allocate demux cap=00
+<   298.276> [eDVBResourceManager] allocating demux adapter=0, demux=8, source=-1 fesource=-1
+<   298.276> [eDVBDemux] open demux /dev/dvb/adapter0/demux8
+<   298.276> [eDVBPESReader] Created. Opening demux
+<   298.276> [eDVBDemux] open demux /dev/dvb/adapter0/demux8
+<   298.276> [eDVBPESReader] DMX_SET_PES_FILTER pid=ffffffff
+<   298.284> [eDVBPESReader] DMX_SET_PES_FILTER pid=ffffffff:  Invalid argument
+<   298.978> [LCD4linux] writing to Vu+ LCD 
+<   299.049> ------------------------------------------------------------------ __evUpdatedInfo
+<   299.165> ------------------------------------------------------------------ __evUpdatedInfo
+<   299.258> ------------------------------------------------------------------ __evUpdatedInfo
+<   299.403> ------------------------------------------------------------------ __evUpdatedInfo
+<   299.403> [eServiceMP3] state transition READY -> PAUSED
+<   299.406> [eServiceMP3] loading cuesheet
+<   299.407> [eServiceMP3] cutfile not found!
+<   299.457> [eServiceMP3] async-done - 1 video, 1 audio, 0 subtitle
+<   299.459> [eServiceMP3] AUDIO STRUCT=audio/mpeg
+<   299.459> [eServiceMP3] audio stream=0 codec=audio/mpeg language=und
+<   299.584> ------------------------------------------------------------------ __evUpdatedInfo
+<   299.702> ------------------------------------------------------------------ __evUpdatedInfo
+<   299.821> ------------------------------------------------------------------ __evUpdatedInfo
+<   299.851> [eServiceMP3] stop /tmp/stream2.avi
+<   299.851> [eServiceMP3] stop state:PLAYING pending:VOID_PENDING ret:SUCCESS
+<   300.025> [LCD4linux] writing to Vu+ LCD 
+<   300.170> [eServiceMP3] destruct!
+<   300.255> [SKIN] Parsing embedded skin <embedded-in-'SunnyConfig'>
+<   300.314> PC: 005c1348
+<   300.314>     00000000 00000001 6200312d 1ceb901e
+<   300.314>     7fad9ec4 6f155354 00000001 00000002
+<   300.314>     00000828 00000001 00000000 00000000
+<   300.314>     7fad9e20 ffffffff 00000000 64904cd8
+<   300.316>     6f15b65c 00000000 0000000f 6f15b664
+<   300.316>     7fad9ec4 7fad9ec0 0000000c 7fada0a4
+<   300.316>     00000018 005c1338 00000000 00000000
+<   300.316>     0066af70 7fad9ea0 7fad9fb8 005c13e4
+<   300.316> -------FATAL SIGNAL
